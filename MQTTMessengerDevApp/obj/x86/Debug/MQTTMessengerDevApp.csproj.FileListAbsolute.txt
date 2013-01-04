@@ -1,0 +1,13 @@
+c:\users\mikey\documents\visual studio 2010\Projects\MQTTMessengerDevApp\MQTTMessengerDevApp\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\mikey\documents\visual studio 2010\Projects\MQTTMessengerDevApp\MQTTMessengerDevApp\obj\x86\Debug\MQTTMessengerDevApp.Form1.resources
+c:\users\mikey\documents\visual studio 2010\Projects\MQTTMessengerDevApp\MQTTMessengerDevApp\obj\x86\Debug\MQTTMessengerDevApp.Properties.Resources.resources
+c:\users\mikey\documents\visual studio 2010\Projects\MQTTMessengerDevApp\MQTTMessengerDevApp\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\mikey\documents\visual studio 2010\Projects\MQTTMessengerDevApp\MQTTMessengerDevApp\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\mikey\documents\visual studio 2010\Projects\MQTTMessengerDevApp\MQTTMessengerDevApp\bin\Debug\MQTTMessengerDevApp.exe
+c:\users\mikey\documents\visual studio 2010\Projects\MQTTMessengerDevApp\MQTTMessengerDevApp\bin\Debug\MQTTMessengerDevApp.pdb
+c:\users\mikey\documents\visual studio 2010\Projects\MQTTMessengerDevApp\MQTTMessengerDevApp\bin\Debug\MqttLib.dll
+c:\users\mikey\documents\visual studio 2010\Projects\MQTTMessengerDevApp\MQTTMessengerDevApp\obj\x86\Debug\MQTTMessengerDevApp.exe
+c:\users\mikey\documents\visual studio 2010\Projects\MQTTMessengerDevApp\MQTTMessengerDevApp\obj\x86\Debug\MQTTMessengerDevApp.pdb
+C:\Users\Mikey\Documents\Visual Studio 2010\Projects\MQTTMessengerDevApp\MQTTMessengerDevApp\bin\Debug\MQTTMessengerDevApp.exe.config
+C:\Users\Mikey\Documents\Visual Studio 2010\Projects\MQTTMessengerDevApp\MQTTMessengerDevApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Mikey\Documents\Visual Studio 2010\Projects\MQTTMessengerDevApp\MQTTMessengerDevApp\bin\Debug\Newtonsoft.Json.xml

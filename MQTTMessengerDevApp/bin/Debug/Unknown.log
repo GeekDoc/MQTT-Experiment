@@ -1,0 +1,338 @@
+#
+# Creating new log
+#
+3/15/2012 - 12:19:05 AM - [ERROR]System.InvalidOperationException: The stream does not support reading.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at MqttLib.Core.Messages.MqttMessage.ReadCompleteBuffer(Stream str, Byte[] buffer)
+   at MqttLib.Core.Messages.MqttMessage.ReadUshortFromStream(Stream str)
+   at MqttLib.Core.Messages.MqttSubackMessage.ConstructFromStream(Stream str)
+   at MqttLib.Core.Messages.MqttMessage..ctor(Stream str, Byte header)
+   at MqttLib.Core.Messages.MqttAcknowledgeMessage..ctor(Stream str, Byte header)
+   at MqttLib.Core.Messages.MqttSubackMessage..ctor(Stream str, Byte header)
+   at MqttLib.Core.Messages.MessageFactory.CreateMessage(Stream str, Byte header)
+   at MqttLib.Core.StreamManager.listen(IAsyncResult asyncResult)
+#
+# Creating new log
+#
+3/15/2012 - 12:33:27 AM - [ERROR]System.InvalidOperationException: The stream does not support reading.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at MqttLib.Core.Messages.MqttMessage.ReadCompleteBuffer(Stream str, Byte[] buffer)
+   at MqttLib.Core.Messages.MqttMessage.ReadUshortFromStream(Stream str)
+   at MqttLib.Core.Messages.MqttSubackMessage.ConstructFromStream(Stream str)
+   at MqttLib.Core.Messages.MqttMessage..ctor(Stream str, Byte header)
+   at MqttLib.Core.Messages.MqttAcknowledgeMessage..ctor(Stream str, Byte header)
+   at MqttLib.Core.Messages.MqttSubackMessage..ctor(Stream str, Byte header)
+   at MqttLib.Core.Messages.MessageFactory.CreateMessage(Stream str, Byte header)
+   at MqttLib.Core.StreamManager.listen(IAsyncResult asyncResult)
+#
+# Creating new log
+#
+3/15/2012 - 12:34:09 AM - [ERROR]System.InvalidOperationException: The stream does not support reading.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at MqttLib.Core.Messages.MqttMessage.ReadCompleteBuffer(Stream str, Byte[] buffer)
+   at MqttLib.Core.Messages.MqttMessage.ReadUshortFromStream(Stream str)
+   at MqttLib.Core.Messages.MqttSubackMessage.ConstructFromStream(Stream str)
+   at MqttLib.Core.Messages.MqttMessage..ctor(Stream str, Byte header)
+   at MqttLib.Core.Messages.MqttAcknowledgeMessage..ctor(Stream str, Byte header)
+   at MqttLib.Core.Messages.MqttSubackMessage..ctor(Stream str, Byte header)
+   at MqttLib.Core.Messages.MessageFactory.CreateMessage(Stream str, Byte header)
+   at MqttLib.Core.StreamManager.listen(IAsyncResult asyncResult)
+#
+# Creating new log
+#
+3/15/2012 - 12:40:00 AM - [ERROR]System.IO.IOException: Unable to read data from the transport connection: An established connection was aborted by the software in your host machine. ---> System.Net.Sockets.SocketException: An established connection was aborted by the software in your host machine
+   at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at MqttLib.Core.Messages.MqttMessage.ReadCompleteBuffer(Stream str, Byte[] buffer)
+   at MqttLib.Core.Messages.MqttMessage.ReadUshortFromStream(Stream str)
+   at MqttLib.Core.Messages.MqttSubackMessage.ConstructFromStream(Stream str)
+   at MqttLib.Core.Messages.MqttMessage..ctor(Stream str, Byte header)
+   at MqttLib.Core.Messages.MqttAcknowledgeMessage..ctor(Stream str, Byte header)
+   at MqttLib.Core.Messages.MqttSubackMessage..ctor(Stream str, Byte header)
+   at MqttLib.Core.Messages.MessageFactory.CreateMessage(Stream str, Byte header)
+   at MqttLib.Core.StreamManager.listen(IAsyncResult asyncResult)
+3/15/2012 - 12:40:12 AM - [ERROR]System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at MqttLib.Core.Messages.MqttMessage.ReadCompleteBuffer(Stream str, Byte[] buffer)
+   at MqttLib.Core.Messages.MqttMessage.ReadUshortFromStream(Stream str)
+   at MqttLib.Core.Messages.MqttMessage.ReadStringFromStream(Stream str)
+   at MqttLib.Core.Messages.MqttPublishMessage.ConstructFromStream(Stream str)
+   at MqttLib.Core.Messages.MqttMessage..ctor(Stream str, Byte header)
+   at MqttLib.Core.Messages.MqttPublishMessage..ctor(Stream str, Byte header)
+   at MqttLib.Core.Messages.MessageFactory.CreateMessage(Stream str, Byte header)
+   at MqttLib.Core.StreamManager.listen(IAsyncResult asyncResult)
+#
+# Creating new log
+#
+3/19/2012 - 8:24:58 PM - [ERROR]System.IO.IOException: Unable to write data to the transport connection: An established connection was aborted by the software in your host machine. ---> System.Net.Sockets.SocketException: An established connection was aborted by the software in your host machine
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at System.IO.Stream.WriteByte(Byte value)
+   at MqttLib.Core.Messages.MqttMessage.Serialise(Stream str)
+   at MqttLib.Core.StreamManager.SendMessage(MqttMessage mess)
+   at MqttLib.Mqtt.tmrCallback(Object args)
+#
+# Creating new log
+#
+3/21/2012 - 9:19:15 PM - [ERROR]System.IO.IOException: Unable to read data from the transport connection: An established connection was aborted by the software in your host machine. ---> System.Net.Sockets.SocketException: An established connection was aborted by the software in your host machine
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at MqttLib.Core.StreamManager.listen(IAsyncResult asyncResult)
+#
+# Creating new log
+#
+3/21/2012 - 9:28:05 PM - [ERROR]System.IO.IOException: Unable to read data from the transport connection: An established connection was aborted by the software in your host machine. ---> System.Net.Sockets.SocketException: An established connection was aborted by the software in your host machine
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at MqttLib.Core.StreamManager.listen(IAsyncResult asyncResult)
+3/21/2012 - 9:28:27 PM - [ERROR]System.IO.IOException: Unable to read data from the transport connection: An established connection was aborted by the software in your host machine. ---> System.Net.Sockets.SocketException: An established connection was aborted by the software in your host machine
+   at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at MqttLib.Core.Messages.MqttMessage.ReadCompleteBuffer(Stream str, Byte[] buffer)
+   at MqttLib.Core.Messages.MqttConnackMessage.ConstructFromStream(Stream str)
+   at MqttLib.Core.Messages.MqttMessage..ctor(Stream str, Byte header)
+   at MqttLib.Core.Messages.MqttConnackMessage..ctor(Stream str, Byte header)
+   at MqttLib.Core.Messages.MessageFactory.CreateMessage(Stream str, Byte header)
+   at MqttLib.Core.StreamManager.listen(IAsyncResult asyncResult)
+3/21/2012 - 9:28:30 PM - [ERROR]System.IO.IOException: Unable to read data from the transport connection: An established connection was aborted by the software in your host machine. ---> System.Net.Sockets.SocketException: An established connection was aborted by the software in your host machine
+   at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at MqttLib.Core.Messages.MqttMessage.ReadCompleteBuffer(Stream str, Byte[] buffer)
+   at MqttLib.Core.Messages.MqttMessage.ReadUshortFromStream(Stream str)
+   at MqttLib.Core.Messages.MqttSubackMessage.ConstructFromStream(Stream str)
+   at MqttLib.Core.Messages.MqttMessage..ctor(Stream str, Byte header)
+   at MqttLib.Core.Messages.MqttAcknowledgeMessage..ctor(Stream str, Byte header)
+   at MqttLib.Core.Messages.MqttSubackMessage..ctor(Stream str, Byte header)
+   at MqttLib.Core.Messages.MessageFactory.CreateMessage(Stream str, Byte header)
+   at MqttLib.Core.StreamManager.listen(IAsyncResult asyncResult)
+3/21/2012 - 9:28:40 PM - [ERROR]System.IO.IOException: Unable to read data from the transport connection: An established connection was aborted by the software in your host machine. ---> System.Net.Sockets.SocketException: An established connection was aborted by the software in your host machine
+   at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at MqttLib.Core.Messages.MqttMessage.ReadCompleteBuffer(Stream str, Byte[] buffer)
+   at MqttLib.Core.Messages.MqttConnackMessage.ConstructFromStream(Stream str)
+   at MqttLib.Core.Messages.MqttMessage..ctor(Stream str, Byte header)
+   at MqttLib.Core.Messages.MqttConnackMessage..ctor(Stream str, Byte header)
+   at MqttLib.Core.Messages.MessageFactory.CreateMessage(Stream str, Byte header)
+   at MqttLib.Core.StreamManager.listen(IAsyncResult asyncResult)
+#
+# Creating new log
+#
+3/21/2012 - 11:17:35 PM - [ERROR]System.IO.IOException: Unable to write data to the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at System.IO.Stream.WriteByte(Byte value)
+   at MqttLib.Core.Messages.MqttMessage.Serialise(Stream str)
+   at MqttLib.Core.StreamManager.SendMessage(MqttMessage mess)
+   at MqttLib.Mqtt.tmrCallback(Object args)
+3/29/2012 - 2:13:33 AM - [ERROR]System.IO.IOException: Unable to read data from the transport connection: An established connection was aborted by the software in your host machine. ---> System.Net.Sockets.SocketException: An established connection was aborted by the software in your host machine
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   at MqttLib.Core.StreamManager.listen(IAsyncResult asyncResult)
+4/2/2012 - 5:57:26 PM - [ERROR]System.IO.IOException: Unable to read data from the transport connection: An established connection was aborted by the software in your host machine. ---> System.Net.Sockets.SocketException: An established connection was aborted by the software in your host machine
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   at MqttLib.Core.StreamManager.listen(IAsyncResult asyncResult)
+#
+# Creating new log
+#
+4/2/2012 - 10:44:14 PM - [ERROR]System.IO.IOException: Unable to read data from the transport connection: An established connection was aborted by the software in your host machine. ---> System.Net.Sockets.SocketException: An established connection was aborted by the software in your host machine
+   at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at MqttLib.Core.Messages.MqttMessage.ReadCompleteBuffer(Stream str, Byte[] buffer)
+   at MqttLib.Core.Messages.MqttConnackMessage.ConstructFromStream(Stream str)
+   at MqttLib.Core.Messages.MqttMessage..ctor(Stream str, Byte header)
+   at MqttLib.Core.Messages.MqttConnackMessage..ctor(Stream str, Byte header)
+   at MqttLib.Core.Messages.MessageFactory.CreateMessage(Stream str, Byte header)
+   at MqttLib.Core.StreamManager.listen(IAsyncResult asyncResult)
+4/2/2012 - 10:44:46 PM - [ERROR]System.IO.IOException: Unable to read data from the transport connection: An established connection was aborted by the software in your host machine. ---> System.Net.Sockets.SocketException: An established connection was aborted by the software in your host machine
+   at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.IO.Stream.ReadByte()
+   at MqttLib.Core.Messages.MqttMessage.DecodeVariableHeaderLength(Stream str)
+   at MqttLib.Core.Messages.MqttMessage..ctor(Stream str, Byte header)
+   at MqttLib.Core.Messages.MqttPingRespMessage..ctor(Stream str, Byte header)
+   at MqttLib.Core.Messages.MessageFactory.CreateMessage(Stream str, Byte header)
+   at MqttLib.Core.StreamManager.listen(IAsyncResult asyncResult)
+#
+# Creating new log
+#
+4/4/2012 - 5:35:39 PM - [ERROR]System.IO.IOException: Unable to read data from the transport connection: An established connection was aborted by the software in your host machine. ---> System.Net.Sockets.SocketException: An established connection was aborted by the software in your host machine
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   at MqttLib.Core.StreamManager.listen(IAsyncResult asyncResult)
+4/4/2012 - 5:35:39 PM - [ERROR]System.IO.IOException: Unable to write data to the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at System.IO.Stream.WriteByte(Byte value)
+   at MqttLib.Core.Messages.MqttMessage.Serialise(Stream str)
+   at MqttLib.Core.StreamManager.SendMessage(MqttMessage mess)
+   at MqttLib.Mqtt.tmrCallback(Object args)
+4/4/2012 - 9:03:17 PM - [ERROR]System.IO.IOException: Unable to read data from the transport connection: An established connection was aborted by the software in your host machine. ---> System.Net.Sockets.SocketException: An established connection was aborted by the software in your host machine
+   at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at MqttLib.Core.Messages.MqttMessage.ReadCompleteBuffer(Stream str, Byte[] buffer)
+   at MqttLib.Core.Messages.MqttConnackMessage.ConstructFromStream(Stream str)
+   at MqttLib.Core.Messages.MqttMessage..ctor(Stream str, Byte header)
+   at MqttLib.Core.Messages.MqttConnackMessage..ctor(Stream str, Byte header)
+   at MqttLib.Core.Messages.MessageFactory.CreateMessage(Stream str, Byte header)
+   at MqttLib.Core.StreamManager.listen(IAsyncResult asyncResult)
+4/4/2012 - 9:04:50 PM - [ERROR]System.IO.IOException: Unable to read data from the transport connection: An established connection was aborted by the software in your host machine. ---> System.Net.Sockets.SocketException: An established connection was aborted by the software in your host machine
+   at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.IO.Stream.ReadByte()
+   at MqttLib.Core.Messages.MqttMessage.DecodeVariableHeaderLength(Stream str)
+   at MqttLib.Core.Messages.MqttMessage..ctor(Stream str, Byte header)
+   at MqttLib.Core.Messages.MqttPingRespMessage..ctor(Stream str, Byte header)
+   at MqttLib.Core.Messages.MessageFactory.CreateMessage(Stream str, Byte header)
+   at MqttLib.Core.StreamManager.listen(IAsyncResult asyncResult)
+#
+# Creating new log
+#
+4/4/2012 - 11:08:57 PM - [ERROR]System.IO.IOException: Unable to read data from the transport connection: An established connection was aborted by the software in your host machine. ---> System.Net.Sockets.SocketException: An established connection was aborted by the software in your host machine
+   at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.IO.Stream.ReadByte()
+   at MqttLib.Core.Messages.MqttMessage.DecodeVariableHeaderLength(Stream str)
+   at MqttLib.Core.Messages.MqttMessage..ctor(Stream str, Byte header)
+   at MqttLib.Core.Messages.MqttPingRespMessage..ctor(Stream str, Byte header)
+   at MqttLib.Core.Messages.MessageFactory.CreateMessage(Stream str, Byte header)
+   at MqttLib.Core.StreamManager.listen(IAsyncResult asyncResult)
+4/4/2012 - 11:11:19 PM - [ERROR]System.IO.IOException: Unable to read data from the transport connection: An established connection was aborted by the software in your host machine. ---> System.Net.Sockets.SocketException: An established connection was aborted by the software in your host machine
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at MqttLib.Core.StreamManager.listen(IAsyncResult asyncResult)
+4/4/2012 - 11:11:26 PM - [ERROR]System.IO.IOException: Unable to read data from the transport connection: An established connection was aborted by the software in your host machine. ---> System.Net.Sockets.SocketException: An established connection was aborted by the software in your host machine
+   at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at MqttLib.Core.Messages.MqttMessage.ReadCompleteBuffer(Stream str, Byte[] buffer)
+   at MqttLib.Core.Messages.MqttConnackMessage.ConstructFromStream(Stream str)
+   at MqttLib.Core.Messages.MqttMessage..ctor(Stream str, Byte header)
+   at MqttLib.Core.Messages.MqttConnackMessage..ctor(Stream str, Byte header)
+   at MqttLib.Core.Messages.MessageFactory.CreateMessage(Stream str, Byte header)
+   at MqttLib.Core.StreamManager.listen(IAsyncResult asyncResult)
+#
+# Creating new log
+#
+4/5/2012 - 12:47:31 AM - [ERROR]System.IO.IOException: Unable to read data from the transport connection: An established connection was aborted by the software in your host machine. ---> System.Net.Sockets.SocketException: An established connection was aborted by the software in your host machine
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   at MqttLib.Core.StreamManager.listen(IAsyncResult asyncResult)
+#
+# Creating new log
+#
+4/10/2012 - 5:36:36 PM - [ERROR]System.IO.IOException: Unable to read data from the transport connection: An established connection was aborted by the software in your host machine. ---> System.Net.Sockets.SocketException: An established connection was aborted by the software in your host machine
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   at MqttLib.Core.StreamManager.listen(IAsyncResult asyncResult)
+#
+# Creating new log
+#
+4/10/2012 - 5:36:44 PM - [ERROR]System.IO.IOException: Unable to write data to the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at System.IO.Stream.WriteByte(Byte value)
+   at MqttLib.Core.Messages.MqttMessage.Serialise(Stream str)
+   at MqttLib.Core.StreamManager.SendMessage(MqttMessage mess)
+   at MqttLib.Mqtt.tmrCallback(Object args)
+4/11/2012 - 6:52:08 AM - [ERROR]System.IO.IOException: Unable to read data from the transport connection: An established connection was aborted by the software in your host machine. ---> System.Net.Sockets.SocketException: An established connection was aborted by the software in your host machine
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   at MqttLib.Core.StreamManager.listen(IAsyncResult asyncResult)
+4/11/2012 - 6:37:10 PM - [ERROR]MqttLib.Core.NotConnectedException: Not connected to any stream,  call Connect() first
+   at MqttLib.Core.StreamManager.SendMessage(MqttMessage mess)
+   at MqttLib.Mqtt.tmrCallback(Object args)
+#
+# Creating new log
+#
+4/11/2012 - 10:18:21 PM - [ERROR]System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   at MqttLib.Core.StreamManager.listen(IAsyncResult asyncResult)
+#
+# Creating new log
+#
+4/12/2012 - 9:27:35 PM - [ERROR]System.IO.IOException: Unable to read data from the transport connection: An established connection was aborted by the software in your host machine. ---> System.Net.Sockets.SocketException: An established connection was aborted by the software in your host machine
+   at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.IO.Stream.ReadByte()
+   at MqttLib.Core.Messages.MqttMessage.DecodeVariableHeaderLength(Stream str)
+   at MqttLib.Core.Messages.MqttMessage..ctor(Stream str, Byte header)
+   at MqttLib.Core.Messages.MqttPingRespMessage..ctor(Stream str, Byte header)
+   at MqttLib.Core.Messages.MessageFactory.CreateMessage(Stream str, Byte header)
+   at MqttLib.Core.StreamManager.listen(IAsyncResult asyncResult)
+#
+# Creating new log
+#
+4/12/2012 - 9:31:09 PM - [ERROR]System.IO.IOException: Unable to read data from the transport connection: An established connection was aborted by the software in your host machine. ---> System.Net.Sockets.SocketException: An established connection was aborted by the software in your host machine
+   at System.Net.Sockets.Socket.BeginReceive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   at System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at MqttLib.Core.StreamManager.listen(IAsyncResult asyncResult)
+#
+# Creating new log
+#
+4/12/2012 - 10:16:52 PM - [ERROR]System.IO.IOException: Unable to read data from the transport connection: An established connection was aborted by the software in your host machine. ---> System.Net.Sockets.SocketException: An established connection was aborted by the software in your host machine
+   at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.IO.Stream.ReadByte()
+   at MqttLib.Core.Messages.MqttMessage.DecodeVariableHeaderLength(Stream str)
+   at MqttLib.Core.Messages.MqttMessage..ctor(Stream str, Byte header)
+   at MqttLib.Core.Messages.MqttPingRespMessage..ctor(Stream str, Byte header)
+   at MqttLib.Core.Messages.MessageFactory.CreateMessage(Stream str, Byte header)
+   at MqttLib.Core.StreamManager.listen(IAsyncResult asyncResult)

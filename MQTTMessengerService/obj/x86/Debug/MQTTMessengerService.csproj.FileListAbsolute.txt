@@ -1,0 +1,5 @@
+C:\Users\Mikey\Documents\Visual Studio 2010\Projects\MQTTMessengerDevApp\MQTTMessengerService\bin\Debug\MQTTMessengerService.exe
+C:\Users\Mikey\Documents\Visual Studio 2010\Projects\MQTTMessengerDevApp\MQTTMessengerService\bin\Debug\MQTTMessengerService.pdb
+C:\Users\Mikey\Documents\Visual Studio 2010\Projects\MQTTMessengerDevApp\MQTTMessengerService\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Mikey\Documents\Visual Studio 2010\Projects\MQTTMessengerDevApp\MQTTMessengerService\obj\x86\Debug\MQTTMessengerService.exe
+C:\Users\Mikey\Documents\Visual Studio 2010\Projects\MQTTMessengerDevApp\MQTTMessengerService\obj\x86\Debug\MQTTMessengerService.pdb
